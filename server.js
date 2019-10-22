@@ -2,9 +2,13 @@ const express = require('express');
 //dev configs wouldn't use for prod env
 const connectDB = require('./config/db');
 
+
 const app = express();
 
 connectDB();
+
+//init middleware
+app.use(express.json({ extended: false }));
 
 app.get('/', (req, res) => res.json({message: 'welcome 2u web server'}));
 
