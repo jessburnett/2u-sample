@@ -1,0 +1,19 @@
+{
+  "name": "2u-dockerized-demo",
+  "version": "1.0.0",
+  "description": "playground to showcase skills",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessburnett/2u-sample.git"
+  },
+  "author": "Jess Burnett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jessburnett/2u-sample/issues"
+  },
+  "homepage": "https://github.com/jessburnett/2u-sample#readme"
+}
