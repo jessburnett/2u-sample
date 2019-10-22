@@ -1,8 +1,14 @@
 const express = require('express');
+//dev configs wouldn't use for prod env
+const connectDB = require('./config/db');
 
 const app = express();
 
+connectDB();
+
 app.get('/', (req, res) => res.json({message: 'welcome 2u web server'}));
+
+
 
 //define routes
 app.use('/api/users', require('./routes/users'));
