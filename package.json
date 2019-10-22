@@ -4,7 +4,8 @@
   "description": "playground to showcase skills",
   "main": "server.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jessburnett/2u-sample/issues"
   },
-  "homepage": "https://github.com/jessburnett/2u-sample#readme"
+  "homepage": "https://github.com/jessburnett/2u-sample#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
