@@ -51,7 +51,7 @@ router.post('/',
           id: user.id
         }
       }
-
+      //decode here: https://jwt.io/home/
       jwt.sign(
         payload,
         config.get('jwtSecret'),
